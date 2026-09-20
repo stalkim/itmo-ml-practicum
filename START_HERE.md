@@ -10,7 +10,7 @@
 
 | Работа | Куда положить данные | Файлы |
 |---|---|---|
-| 1 | `labs/01_classification/data/` | `train.csv`, `test.csv` |
+| 1 | `labs/01_classification/data/` | `train.csv`, `test.csv` — уже включены |
 | 2 | `labs/02_regression/data/` | `train.csv`, `test.csv`, `data_description.txt` |
 | 3 | `labs/03_cnn/data/` | Папки `daisy`, `dandelion`, `rose`, `sunflower`, `tulip` с изображениями |
 
