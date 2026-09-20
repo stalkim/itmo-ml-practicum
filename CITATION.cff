@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "При использовании материалов укажите авторов и версию практикума."
+title: "Прикладной искусственный интеллект. Лабораторный практикум"
+type: book
+version: "0.10"
+date-released: "2026-09-20"
+authors:
+  - family-names: "Ким"
+    given-names: "Станислав Александрович"
+  - family-names: "Евстафьев"
+    given-names: "Олег Александрович"
+repository-code: "https://github.com/stalkim/itmo-ml-practicum"
+url: "https://github.com/stalkim/itmo-ml-practicum/tree/v0.10"

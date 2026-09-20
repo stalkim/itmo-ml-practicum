@@ -1,0 +1,15 @@
+\begin{tikzpicture}[>=Stealth,
+  neuron/.style={circle,draw=accent,fill=light,minimum size=9mm},
+  every node/.style={font=\small}]
+\foreach \i/\label in {1/1,2/j,3/d}{
+  \node[neuron] (x\i) at (0,-1.2*\i) {$x_{\label}$};}
+\foreach \i/\label in {1/1,2/k,3/m}{
+  \node[neuron] (h\i) at (4,-1.2*\i) {$h_{\label}$};}
+\node[neuron] (y) at (8,-2.4) {$\widehat z$};
+\foreach \i in {1,2,3}{\foreach \j in {1,2,3}{
+  \draw[->,black!30] (x\i)--(h\j);}}
+\foreach \i in {1,2,3}{\draw[->,black!45] (h\i)--(y);}
+\node[align=center] at (0,0) {Подготовленные\\признаки};
+\node[align=center] at (4,0) {Скрытый слой\\ReLU};
+\node[align=center] at (8,0) {Линейный\\выход};
+\end{tikzpicture}
